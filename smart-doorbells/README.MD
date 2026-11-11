@@ -242,8 +242,6 @@ A great camera isn't much use if it can't reliably connect to your network.
 
 ## 🛒 Equipment & Product Links
 
-## 🛒 Equipment & Product Links
-
 Here are the three smart doorbells featured in my comparison.
 
 ### 🏠 Aqara G410 — Smart Home Integration & Flexibility
