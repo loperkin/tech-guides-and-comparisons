@@ -242,15 +242,71 @@ A great camera isn't much use if it can't reliably connect to your network.
 
 ## 🛒 Equipment & Product Links
 
-Products discussed in this guide:
+## 🛒 Equipment & Product Links
 
-| Product | Link |
+Here are the three smart doorbells featured in my comparison.
+
+### 🏠 Aqara G410 — Smart Home Integration & Flexibility
+
+The Aqara G410 combines a 2K video doorbell with smart-home hub functionality.
+
+- Native Apple HomeKit Secure Video support
+- Built-in Aqara Zigbee and Matter hub features
+- mmWave presence detection
+- Battery or hardwired power options
+- Home Assistant integration options, including RTSP when hardwired
+
+**🛒 [Check Out the Aqara G410](https://geni.us/xYOmvYB)**
+
+### 🔌 Aqara G400 — PoE Meets Apple Home
+
+The Aqara G400 combines wired networking with native Apple Home integration.
+
+- Native Apple HomeKit Secure Video support
+- Power over Ethernet (PoE)
+- Wired Ethernet or Wi-Fi connectivity
+- RTSP and ONVIF support for local video integration
+- Home Assistant integration possibilities
+- Local recording options
+
+**🛒 [Check Out the Aqara G400](https://geni.us/AWmj)**
+
+### 📹 Reolink Video Doorbell PoE — Local Recording & Control
+
+The Reolink PoE Doorbell is designed for users who prefer wired networking and local video recording.
+
+- Wired Ethernet and PoE power
+- Local recording options
+- Home Assistant integration
+- RTSP and ONVIF support
+- No native Apple HomeKit support
+- Apple Home integration possible through additional software such as Scrypted
+
+**🛒 [Check Out the Reolink Video Doorbell PoE](https://geni.us/TyFtp)**
+
+---
+
+### ⚖️ Quick Buying Guide
+
+| Your Priority | Doorbell to Consider |
 |---|---|
-| Aqara G410 | Product link to be added |
-| Aqara G400 | Product link to be added |
-| Reolink PoE Doorbell | Product link to be added |
+| Apple HomeKit Secure Video and smart-home hub features | Aqara G410 |
+| Apple HomeKit Secure Video with PoE | Aqara G400 |
+| Wired networking and local recording | Reolink PoE |
+| Native Apple Home integration | Aqara G410 or G400 |
+| Home Assistant with RTSP/ONVIF | Aqara G400 or Reolink PoE |
+| Battery-powered installation | Aqara G410 |
+| Avoiding additional Apple Home bridging software | Aqara G410 or G400 |
 
-I'll add purchasing links as they're confirmed.
+**Important:** Apple HomeKit Secure Video recording requires an eligible iCloud+ plan and Apple home hub. Home Assistant functionality varies by model and integration method.
+
+### Affiliate Disclosure
+
+Some links in this guide are affiliate links. If you purchase through them, I may earn a commission at no additional cost to you.
+
+Affiliate relationships do not guarantee positive reviews or recommendations.
+
+Prices, specifications, and availability may change. Always verify current details before purchasing.
 
 ### Affiliate Disclosure
 
