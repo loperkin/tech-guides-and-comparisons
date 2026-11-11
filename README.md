@@ -26,23 +26,7 @@ The goal isn't to recommend the most expensive solution.
 
 ## 📚 Explore the Guides
 
-Browse by category or jump directly into a comparison.
-
-### 🏠 Home Assistant & Smart Home Hardware
-
-| Guide | What We're Comparing |
-|---|---|
-| Home Assistant Green vs Raspberry Pi 5 vs Mini PC | Dedicated hardware, single-board computers, and refurbished PCs for running Home Assistant |
-| Apple Home vs Alexa vs Home Assistant | Smart home ecosystems, automation capabilities, privacy, and flexibility |
-
-### 🔐 Smart Home Security
-
-| Guide | What We're Comparing |
-|---|---|
-| Alarmo vs Ring Alarm vs SimpliSafe | DIY security, commercial alarm systems, monitoring options, and customization |
-| Aqara G410 vs G400 vs Reolink PoE Doorbell | Smart doorbell features, connectivity, and ecosystem considerations |
-
-*Individual guide pages and video links will be added as the comparisons are published.*
+Browse by category folder above.
 
 ---
 
