@@ -28,6 +28,11 @@ The goal isn't to recommend the most expensive solution.
 
 Browse by category folder above.
 
+### 💡 Smart Lighting
+
+[**Whole-House Smart Lighting Guide — Bulbs, Switches, Shelly, Zigbee & More**](smart-lighting/README.md)  
+A practical nine-part guide with product comparisons, Home Assistant considerations, and 32 product links.
+
 ---
 
 ## 🧭 How I Compare Products
