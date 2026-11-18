@@ -1,5 +1,7 @@
 # 🏠 Home Assistant Hardware — Green vs Raspberry Pi 5 vs Mini PC
 
+> **Looking for the website version?** [Read the Home Assistant hardware buying guide on PIP Builds](https://pipbuilds.com/guides/home-assistant-hardware/). This GitHub document is the maintained technical reference for the comparison.
+
 ### Three ways to run Home Assistant. Which one makes the most sense?
 
 **Learn it. Compare it. Put it into practice.**
@@ -203,6 +205,80 @@ Planning to add cameras, video processing, multiple virtual machines, or additio
 You may benefit from more capable hardware, depending on where those workloads run.
 
 And remember: **reliability, backups, storage quality, and power protection can matter more than raw processing speed.**
+
+---
+
+## 💰 Compare the complete cost, not just the advertised price
+
+A Raspberry Pi board price is not the price of a ready-to-run Home Assistant installation. Likewise, a used mini PC may arrive without a suitable drive, power adapter, or operating system.
+
+| Cost item | Home Assistant Green | Raspberry Pi 5 | Refurbished mini PC |
+|---|---|---|---|
+| Main hardware | Green appliance | Raspberry Pi 5 board | Complete mini PC, model dependent |
+| Power supply | Typically included in the retail kit; confirm listing | Compatible USB-C power supply | Correct adapter; confirm included |
+| Storage | Built-in eMMC | microSD or SSD; SSD is worth considering for sustained writes | Check whether a working SSD is included |
+| Case and cooling | Built in | Usually separate | Usually built in |
+| Ethernet | Built in | Built in | Check exact model |
+| Zigbee / Thread | External compatible radio or border router as required | External compatible radio or border router as required | External compatible radio or border router as required |
+| Z-Wave | Additional compatible radio if needed | Additional compatible radio if needed | Additional compatible radio if needed |
+| UPS / backup power | Optional but useful | Optional but useful | Optional but useful |
+| Home Assistant software | Home Assistant OS preinstalled | Home Assistant OS installation required | Home Assistant OS or VM installation required |
+
+**Before you buy:** record the *current* price of each required component from the same market and date. Include shipping, taxes, replacement storage, any needed radio adapters, and power consumption if you expect the system to run continuously. Prices vary too much to present an unverified universal winner.
+
+### A practical purchase checklist
+
+- **Green:** Confirm the seller includes the proper power adapter, and decide whether you need Zigbee, Thread, or Z-Wave hardware.
+- **Raspberry Pi 5:** Choose a supported memory configuration, compatible power supply, case/cooling, and storage. Check the current Home Assistant OS installation instructions for the Pi 5 before flashing.
+- **Mini PC:** Check CPU architecture and Home Assistant OS compatibility, storage condition, RAM, included power adapter, firmware boot options, and whether the unit is locked or missing parts. Decide between a dedicated installation and a virtual machine before wiping anything.
+- **All three:** Plan for backups, reliable network access, and a safe recovery path before relying on automations.
+
+## 🛠️ Installation and maintenance paths
+
+### Home Assistant Green: minimal hardware setup
+
+1. Connect Green to your network by Ethernet and supply power using its supported adapter.
+2. Allow the device to boot, then follow the official Home Assistant onboarding instructions.
+3. Update Home Assistant, configure backups, and verify you can restore them.
+4. Add radios or integrations only for the protocols and devices you actually use.
+
+### Raspberry Pi 5: DIY setup
+
+1. Gather the Pi, a compatible power supply, case/cooling and supported storage.
+2. Follow the **current official Home Assistant Raspberry Pi installation guide** to select the correct Home Assistant OS image and write it to storage.
+3. Boot with Ethernet connected, complete onboarding, and update the system.
+4. Set up backups and monitor storage reliability; don't assume a microSD card is the best long-term choice for every workload.
+
+### Mini PC: dedicated host or virtual machine
+
+1. Confirm the exact machine meets the requirements for the installation method you want.
+2. Back up anything already on its drive; a dedicated Home Assistant OS installation can overwrite existing data.
+3. For a dedicated installation, follow the official generic x86-64 Home Assistant OS instructions. For Proxmox or another hypervisor, use a supported virtual-machine installation approach and verify USB/network access for any radios.
+4. Test reboot behavior, backup restoration, and network connectivity before depending on it.
+
+**Official documentation:** [Home Assistant installation](https://www.home-assistant.io/installation/) · [Home Assistant backups](https://www.home-assistant.io/common-tasks/os/#backups)
+
+## ❓ Buying questions worth answering
+
+### Is Home Assistant Green better than a Raspberry Pi 5?
+
+Green generally wins on simplicity: its hardware and Home Assistant OS are already packaged together. The Raspberry Pi 5 offers more hardware flexibility and a hands-on learning experience, but requires selecting and setting up the supporting components.
+
+### Should I use a mini PC for Home Assistant?
+
+A compatible mini PC is attractive when you already have one, want more expansion headroom, or plan to run other services. A refurbished computer is not automatically the cheapest or most power-efficient option; compare the complete system and your actual workload.
+
+### What is the best Home Assistant hardware for a beginner?
+
+For someone who wants to focus on smart-home automations rather than assembling a computer, Green is a straightforward starting point. For someone who wants to learn the hardware and installation process, a Raspberry Pi 5 can be rewarding.
+
+### What if I want to run cameras, Frigate, or other applications?
+
+Check where each workload will run. Camera recording and video processing may need different storage, processing, and acceleration hardware than Home Assistant itself. Avoid choosing a host solely on a generic claim that one platform is “more powerful.”
+
+## 🎬 Watch the short hardware recap
+
+[Watch the 53-second Green vs Raspberry Pi 5 vs mini PC comparison](https://www.youtube.com/watch?v=q4R3lXWbQ9w). The [full comparison video](https://www.youtube.com/watch?v=hfevUZD1EaM) covers the broader decision.
 
 ---
 
