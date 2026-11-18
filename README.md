@@ -28,6 +28,21 @@ The goal isn't to recommend the most expensive solution.
 
 Browse by category folder above.
 
+### 🔧 ESPHome Beginner Tutorials
+
+[**ESP32-C3 SuperMini and ESPHome: From First Flash to Room Automations**](esphome-getting-started/README.md)  
+A video-supported, price-free learning path using the original MultiSensor project, with troubleshooting and current firmware references.
+
+### 🔐 Smart Home Security
+
+[**Alarmo vs Ring vs SimpliSafe — Security Comparison and DIY Setup Checklist**](smart-home-security/README.md)  
+System tradeoffs, practical Alarmo setup, keypad integration and failure-mode testing.
+
+### 🏠 Home Assistant Hardware
+
+[**Green vs Raspberry Pi 5 vs Mini PC**](home-assistant-hardware/README.MD)  
+Hardware requirements, installation paths and what to check before choosing your setup—without published prices.
+
 ### 💡 Smart Lighting
 
 [**Whole-House Smart Lighting Guide — Bulbs, Switches, Shelly, Zigbee & More**](smart-lighting/README.md)  
