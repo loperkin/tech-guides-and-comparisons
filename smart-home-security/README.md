@@ -1,5 +1,7 @@
 # 🔐 Smart Home Security — Alarmo vs Ring vs SimpliSafe
 
+> **Website version:** [Read the PIP Builds security guide](https://pipbuilds.com/guides/smart-home-security/). This GitHub guide provides technical planning and testing detail.
+
 ### DIY flexibility or dedicated security hardware. Which approach makes more sense?
 
 **Learn it. Compare it. Put it into practice.**
@@ -329,6 +331,60 @@ But I also recognize that not everyone wants to troubleshoot their security syst
 - [Ring Alarm](https://ring.com/)
 - [SimpliSafe](https://simplisafe.com/)
 - [My ESPHome Alarmo Keypad Project](https://github.com/loperkin/another-esphome-alarmo-keypad)
+
+---
+
+## 🔧 Alarmo setup and reliability checklist
+
+This section complements the [PIP Builds security comparison](https://pipbuilds.com/guides/smart-home-security/) and the [DIY Alarmo keypad repository](https://github.com/loperkin/another-esphome-alarmo-keypad). It is a planning and testing checklist, **not** a promise of professional monitoring or a substitute for a certified life-safety system.
+
+### 1. Decide how the alarm will work
+
+- Identify the doors, windows and motion sensors you intend to use. Confirm that each reports state reliably in Home Assistant.
+- Decide which sensors should trigger in **armed away**, **armed home**, and any other modes you configure.
+- Plan entry and exit delays so people can disarm and leave without unintended alarms.
+- Decide how you will arm and disarm: Home Assistant interface, automations, and/or a physical keypad.
+- Decide what should happen when a sensor is unavailable, Home Assistant restarts, or the network fails.
+
+### 2. Configure Alarmo
+
+1. Install Alarmo using the integration's current instructions: [Alarmo project and documentation](https://github.com/nielsfaber/alarmo).
+2. Select the sensor entities for each alarm mode; verify that each entity represents the expected open/closed or motion state.
+3. Configure entry and exit delays, user access and PIN handling according to the current Alarmo interface.
+4. Set up alarm-trigger actions, sirens and notifications **only after** testing the basic state transitions.
+5. Test arming, disarming, an actual sensor trigger and recovery. Document the expected behavior before adding more automations.
+
+The integration's menus and features may change; follow its current documentation instead of relying on a fixed click-by-click screenshot sequence.
+
+### 3. Connect a DIY ESPHome keypad
+
+The [ESPHome Alarmo keypad project](https://github.com/loperkin/another-esphome-alarmo-keypad) documents the prototype, PCB, firmware and Home Assistant automation examples. Use the **current repository files** for exact pin assignments and configuration, rather than copying generic ESP32 wiring.
+
+- Confirm that the keypad sends the expected event and that Home Assistant receives it.
+- In the project's automation examples, the entered code is read from `trigger.event.data.code`; adapt device/entity identifiers to your installation.
+- Avoid exposing PINs in public logs, screenshots, GitHub commits, or automation traces.
+- Test incorrect codes, repeat attempts, lost connectivity, restarts and physical keypad failure.
+- Keep a separate reliable method of disarming the alarm if the DIY keypad is unavailable.
+
+### 4. Test the failure modes
+
+| Test | What to verify |
+|---|---|
+| Sensor opens while armed | Alarm triggers according to the configured mode and delay |
+| Sensor unavailable | Missing or stale sensor data is detected and handled deliberately |
+| Internet outage | Local alarm behavior still works where designed; remote notifications may not |
+| Home Assistant reboot | The alarm returns to the intended state and automations recover |
+| Power outage | The behavior of host, radios, network and siren is understood; backup power is separately planned |
+| Keypad disconnects | Another authorized disarm path remains available |
+| Siren or notification fails | Failure is visible during testing; never assume an alert was delivered |
+
+### Related short videos
+
+- [Why use a physical Home Assistant keypad?](https://www.youtube.com/watch?v=-AbcJ0QvvI4)
+- [DIY keypad prototype and PCB update](https://www.youtube.com/watch?v=lMEmjg3EOno)
+- [Using alarm state to trigger home automations](https://www.youtube.com/watch?v=DUrIzrRG3EM)
+
+**Security limitation:** Alarmo is DIY software. Monitoring, cellular backup, battery backup and dispatch are separate capabilities that must be evaluated and verified individually. Do not present the DIY setup as equivalent to a professionally monitored system.
 
 ---
 
