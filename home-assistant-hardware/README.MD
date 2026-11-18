@@ -105,7 +105,7 @@ It's a great option if you enjoy tinkering and want to learn more about the syst
 - Requires additional components
 - Proper power supply and cooling matter
 - SSD storage is generally preferable for demanding, write-heavy workloads
-- Total cost depends on accessories
+- Check which accessories you already own or need
 - Setup requires more effort than Green
 
 **My take:** The Raspberry Pi 5 makes sense when you want a compact Home Assistant system and enjoy choosing and configuring your own hardware.
@@ -208,11 +208,11 @@ And remember: **reliability, backups, storage quality, and power protection can 
 
 ---
 
-## 💰 Compare the complete cost, not just the advertised price
+## 🧩 Compare what's included, not just the computer
 
-A Raspberry Pi board price is not the price of a ready-to-run Home Assistant installation. Likewise, a used mini PC may arrive without a suitable drive, power adapter, or operating system.
+Different setups include different components. A Raspberry Pi board needs supporting hardware, while a used mini PC may arrive without a suitable drive, power adapter, or operating system. Use the checklist to identify what you need; decide what fits your own budget.
 
-| Cost item | Home Assistant Green | Raspberry Pi 5 | Refurbished mini PC |
+| Component | Home Assistant Green | Raspberry Pi 5 | Refurbished mini PC |
 |---|---|---|---|
 | Main hardware | Green appliance | Raspberry Pi 5 board | Complete mini PC, model dependent |
 | Power supply | Typically included in the retail kit; confirm listing | Compatible USB-C power supply | Correct adapter; confirm included |
@@ -224,7 +224,7 @@ A Raspberry Pi board price is not the price of a ready-to-run Home Assistant ins
 | UPS / backup power | Optional but useful | Optional but useful | Optional but useful |
 | Home Assistant software | Home Assistant OS preinstalled | Home Assistant OS installation required | Home Assistant OS or VM installation required |
 
-**Before you buy:** record the *current* price of each required component from the same market and date. Include shipping, taxes, replacement storage, any needed radio adapters, and power consumption if you expect the system to run continuously. Prices vary too much to present an unverified universal winner.
+**Before you buy:** check what is included with the exact listing, what accessories you already own, and what your installation actually requires. Compare the options against your own priorities and budget; this guide does not publish or rank prices.
 
 ### A practical purchase checklist
 
@@ -266,7 +266,7 @@ Green generally wins on simplicity: its hardware and Home Assistant OS are alrea
 
 ### Should I use a mini PC for Home Assistant?
 
-A compatible mini PC is attractive when you already have one, want more expansion headroom, or plan to run other services. A refurbished computer is not automatically the cheapest or most power-efficient option; compare the complete system and your actual workload.
+A compatible mini PC is attractive when you already have one, want more expansion headroom, or plan to run other services. A refurbished computer is not automatically the most power-efficient or suitable option; compare the included hardware and your actual workload.
 
 ### What is the best Home Assistant hardware for a beginner?
 
