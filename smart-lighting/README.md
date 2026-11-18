@@ -2,9 +2,19 @@
 
 **Purpose in Practice** — *Learn it. Compare it. Put it into practice.*
 
-**Guide type:** Research-based comparison and buying guide. Product features and integrations depend on the exact model. Companion video coming soon.
+**Guide type:** Research-based comparison and buying guide. Product features and integrations depend on the exact model. [Watch the full smart lighting video](https://youtu.be/PhjZcmk1IZo).
 
 > **Affiliate disclosure:** Some links below are affiliate links. I may earn a commission at no additional cost to you. Prices, stock, specifications, and compatibility may change. I do not claim hands-on testing of every product listed.
+
+## Watch the full smart lighting guide
+
+[![Watch the Purpose in Practice smart lighting guide](https://img.youtube.com/vi/PhjZcmk1IZo/hqdefault.jpg)](https://youtu.be/PhjZcmk1IZo)
+
+**[▶ Watch the complete smart lighting video on YouTube](https://youtu.be/PhjZcmk1IZo)**
+
+The video walks through switches, bulbs, dimmers, hidden modules, brands, protocols, and practical whole-house choices. Use the product tables below for the individual models and affiliate links.
+
+---
 
 ## Start here: what should you use?
 
