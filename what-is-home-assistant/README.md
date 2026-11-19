@@ -10,7 +10,8 @@ Remember when you needed a universal remote to make the TV, VCR, DVD player, and
 
 It's free, open-source home automation software that brings *compatible* devices and services together, giving you a central place to control them and create automations.
 
-> 🎬 **Companion video:** In production. The YouTube link and thumbnail will be added when the video is published.  
+> 🎬 **Watch the companion Short:** [What Is Home Assistant? Think Universal Remote… on Steroids!](https://youtube.com/shorts/QlvRhYp9MJQ)  
+> [![Watch the Home Assistant explainer Short](https://img.youtube.com/vi/QlvRhYp9MJQ/hqdefault.jpg)](https://youtube.com/shorts/QlvRhYp9MJQ)  
 > 🌐 **Read the web version:** [What Is Home Assistant? — PIP Builds](https://pipbuilds.com/guides/what-is-home-assistant/)
 
 ---
