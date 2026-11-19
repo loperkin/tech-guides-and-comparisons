@@ -28,6 +28,11 @@ The goal isn't to recommend the most expensive solution.
 
 Browse by category folder above.
 
+### 🏠 Start Here: What Is Home Assistant?
+
+[**What Is Home Assistant? — The Universal Remote for Your Smart Home**](what-is-home-assistant/README.md)  
+A plain-English introduction to smart-home ecosystems, integrations, automations and local control. Educational, beginner-friendly, and no affiliate links.
+
 ### 🔧 ESPHome Beginner Tutorials
 
 [**ESP32-C3 SuperMini and ESPHome: From First Flash to Room Automations**](esphome-getting-started/README.md)  
